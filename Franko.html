@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <style>
+        label{
+            font-size: 30px;
+        }
+        button{
+            background-color: aquamarine;
+        }
+    </style>
+<body>
+    <h1>Question and Answers on how to reduce carbon emission</h1>
+    <label id="Water">How to reduce carbon emissions from transportation?</label>
+    <br>
+    <button onclick="Water()">Click here to answer</button>
+    <br>
+    <label id="Carbon"> How to reduce Carbon emission at home?</label>
+    <br>
+    <button onclick="Carbon()">Click here to answer</button>
+    <br>
+    <label id="Air">How to reduce carbon emissions worldwide?</label>
+    <br>
+    <button onclick="Air()">Click here to answer</button>
+    <script>
+        function Carbon(){
+          document.getElementById("Carbon").innerHTML= 'You can reducing your carbon emission by recycling at least 50% of your household waste, and using less hot water.';
+        }
+        function Water(){
+            document.getElementById("Water").innerHTML= 'Some ways to reduce carbon emission include purchasing vehicles with better fuel economy, increasing fuel efficiency, idle reduction strategies, increased use of alternative modes of transportation and reducing the use of single occupant vehicles and vehicle miles travelled.';
+        }
+        function Air(){
+            document.getElementById("Air").innerHTML='We can start using natural energy. For example, rooftop solar panels, solar water heating, small-scale wind generation, fuel cells powered by natural gas or renewable hydrogen, and geothermal energy.';
+        }
+    </script>
+</body>
+</html>
